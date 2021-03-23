@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "32142742325",
+    "project_id": "whereis-4b835",
+    "storage_bucket": "whereis-4b835.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32142742325:android:5c371e546599ac2798b27c",
+        "android_client_info": {
+          "package_name": "com.example.whereis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32142742325-lopdo34s7ldet7pulpfoec89ubu9dv2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOApitv5sytVFrGPbJRuxWiMepS1kWJcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32142742325-lopdo34s7ldet7pulpfoec89ubu9dv2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

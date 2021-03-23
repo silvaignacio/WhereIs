@@ -15,15 +15,13 @@ class MainActivity : AppCompatActivity() {
         val city = findViewById<TextView>(R.id.city)
         val status = findViewById<TextView>(R.id.status)
 
-        val ciudad = intent.getStringExtra("com.example.whereis.ciudades.ciudad")
+        val lugar = intent.getStringExtra("lugar")
+        val magnitud = intent.getStringExtra("magnitud")
+        val title = intent.getStringExtra("title")
 
-        val santiago = Ciudad("Santiago", 12, "Soleado")
-
-        if(ciudad.equals("santiago")) {
-            temp.text = santiago.nombre
-            city.text = santiago.grados.toString()
-            status.text = santiago.status
-        }
+        temp.text = magnitud
+        city.text = lugar
+        status.text = title
 
     }
 }
